@@ -13,4 +13,3 @@ class Contact(Base):
     email = Column(String, nullable=False)
     phone_number = Column(String, nullable=False)
     birthday = Column(Date, nullable=False)
-    additional_data = Column(String, nullable=True)
